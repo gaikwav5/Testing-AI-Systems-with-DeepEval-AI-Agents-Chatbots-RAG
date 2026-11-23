@@ -14,7 +14,7 @@ Key Takeaways:
    and inherited parent attributes/methods (`self.num`, `self.summation()`).
 """
 
-from oopsDemo import Calculator
+from OopsDemo import Calculator
 
 
 class ChildImpl(Calculator):
