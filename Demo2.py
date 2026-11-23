@@ -58,3 +58,17 @@ dic1 = { 1:"abc" , "c": 2, 4:53}
 print(dic1[1])  #abc -- accessing it via key not index
 
 print(dic1["c"]) #2
+
+dic1[5] ="hello world"
+
+print(dic1)
+
+
+# Adding new values in  empty dict
+dict2 = {}
+
+dict2 ["firstName"] ="abc"
+dict2 ["lastName"] ="xyz"
+dict2 ["gender"] ="Male"
+
+print(dict2)
